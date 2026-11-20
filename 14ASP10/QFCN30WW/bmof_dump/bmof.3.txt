@@ -1,0 +1,10 @@
+class WMIEvent : __ExtrinsicEvent {
+};
+
+[WMI, Dynamic, Provider("WMIProv"), locale("MS\\0x409"), Description("TB Gen6+ Tcon set App Control"), guid("{55165fca-558a-4930-95b2-60b6d61b59dc}")]
+class LENOVO_TCON_DATA {
+  [key, read] string InstanceName;
+  [read] boolean Active;
+
+  [WmiMethodId(2), Implemented, read, Description("SetTconSwitch")] void SetTconSwitch([in] uint32 Data);
+};

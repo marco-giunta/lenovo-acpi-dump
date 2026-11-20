@@ -1,7 +1,7 @@
 # Lenovo ACPI dump
 
 ## Models
-- Yoga Pro 7 14ASP10 (83LX), BIOS QFCN29WW
+- Yoga Pro 7 14ASP10 (83LX), BIOS QFCN29WW & QFCN30WW
 - Legion Pro 7 16AFR10H (83RU), BIOS SMCN20WW
 
 ## Commands
